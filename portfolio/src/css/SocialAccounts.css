@@ -1,0 +1,9 @@
+.socialAccounts > .MuiSvgIcon-root {
+    color: #45B09F;
+    font-size: xx-large;
+}
+
+.socialAccounts > .vertical {
+    border-left: 1px white;
+    height: 120px;
+}

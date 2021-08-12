@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+.intro {
+    height: 100vh;
+    /* padding-top: 50px; */
+}
+
+.first__intro {
+    padding: 25vh 10vh 10vh 10vh;
+    text-align: left;
+}
+
+.greeting {
+    color: #45B09F;
+    padding-bottom: 1vh;
+    font-size: 3vh;
+}
+
+.myName {
+    color: #CCD6F6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 7vh;
+}
+
+.whoami {
+    color: #8892B0;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 6vh;
+    line-height: 6vw;
+}
+

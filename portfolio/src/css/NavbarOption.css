@@ -1,0 +1,18 @@
+.option {
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+    cursor: pointer;
+    color: #45B09F; 
+}
+
+.option:hover {
+    color: #8892B0;
+    /* border-radius: 10px; */
+}
+
+.option > h4 {
+    margin-left: 3vh;
+    font-weight: 600;
+    font-size: 1.5vh;
+}
