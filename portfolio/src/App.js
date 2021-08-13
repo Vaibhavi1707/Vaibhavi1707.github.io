@@ -3,6 +3,7 @@ import './css/App.css';
 import Intro from './pages/Intro';
 import About from './pages/About';
 import Achievements from './pages/Achievements';
+import Experience from './pages/Experience';
 
 import Navbar from './components/Navbar';
 import SocialAccounts from './components/SocialAccounts';
@@ -19,7 +20,7 @@ function App() {
       <Intro />
       <About />
       <Achievements />
-      {/* <Experience /> */}
+      <Experience />
       {/* <Skills /> */}
       {/* <Projects /> */}
       {/* <Contact /> */}
