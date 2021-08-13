@@ -4,6 +4,7 @@ import Intro from './pages/Intro';
 import About from './pages/About';
 import Achievements from './pages/Achievements';
 import Experience from './pages/Experience';
+import Contact from './pages/Contact';
 
 import Navbar from './components/Navbar';
 import SocialAccounts from './components/SocialAccounts';
@@ -23,8 +24,7 @@ function App() {
       <Experience />
       {/* <Skills /> */}
       {/* <Projects /> */}
-      {/* <Contact /> */}
-      {/* <SocialAccounts /> */}
+      <Contact />
     </div>
   );
 }
