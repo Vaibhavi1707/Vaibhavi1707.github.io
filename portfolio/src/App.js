@@ -1,5 +1,7 @@
 import './css/App.css';
+
 import Intro from './pages/Intro';
+import About from './pages/About';
 import Navbar from './components/Navbar';
 import SocialAccounts from './components/SocialAccounts';
 
@@ -13,7 +15,7 @@ function App() {
         <SocialAccounts />
       </div>
       <Intro />
-      {/* <About /> */}
+      <About />
       {/* <Achievements /> */}
       {/* <Experience /> */}
       {/* <Skills /> */}
