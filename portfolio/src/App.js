@@ -2,6 +2,8 @@ import './css/App.css';
 
 import Intro from './pages/Intro';
 import About from './pages/About';
+import Achievements from './pages/Achievements';
+
 import Navbar from './components/Navbar';
 import SocialAccounts from './components/SocialAccounts';
 
@@ -16,7 +18,7 @@ function App() {
       </div>
       <Intro />
       <About />
-      {/* <Achievements /> */}
+      <Achievements />
       {/* <Experience /> */}
       {/* <Skills /> */}
       {/* <Projects /> */}

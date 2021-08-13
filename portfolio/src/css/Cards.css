@@ -1,0 +1,35 @@
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgb(0, 0, 0, 0.75);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 500ms ease-out;
+    width: 40vw;
+    height: 50vh;
+    margin-left: 10vh;
+    /* margin-bottom: 3vh; */
+    /* padding-left: 20vh */
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card .cards__body > img {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card .cards__body > h2 {
+    padding: 1rem;
+    color: white;
+}
+
+.card .cards__body > p {
+    padding: 0 1rem;
+}
+
