@@ -1,0 +1,16 @@
+.skills > h2 {
+    justify-self: center;
+    color: #8892B0;
+    font-size: 6vh;
+}
+
+.skills > h3 {
+    font-size: 3vh;
+    /* font-family: 'Poppins', 'sans-serif'; */
+}
+
+.skills {
+    justify-self: center;
+    color: #8892B0;
+    font-size: 2vh;
+}

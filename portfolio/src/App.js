@@ -2,6 +2,7 @@ import './css/App.css';
 
 import Intro from './pages/Intro';
 import About from './pages/About';
+import Skills from './pages/Skills';
 import Achievements from './pages/Achievements';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
@@ -21,9 +22,9 @@ function App() {
       </div>
       <Intro />
       <About />
+      <Skills />
       <Achievements />
       <Experience />
-      {/* <Skills /> */}
       <Projects />
       <Contact />
     </div>
