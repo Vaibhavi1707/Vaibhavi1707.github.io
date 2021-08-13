@@ -1,9 +1,16 @@
+.socialAccounts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
 .socialAccounts > .MuiSvgIcon-root {
     color: #45B09F;
     font-size: xx-large;
+    margin: 15px;
 }
 
 .socialAccounts > .vertical {
-    border-left: 1px white;
+    border-left: 10px white;
     height: 120px;
 }

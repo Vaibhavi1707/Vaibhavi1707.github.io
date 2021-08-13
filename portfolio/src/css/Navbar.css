@@ -20,7 +20,7 @@
 .right {
     flex: 50%;
     /* background-color: red; */
-    /* margin-left: % */
+    /* margin-left: 20px; */
     display: flex;
     justify-content: right;
     align-items: center;
@@ -59,7 +59,7 @@
 .left .me > h1 {
     font-family: 'Poppins', 'sans-serif';
     color: #63F4DA;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
 @media only screen and (max-width: 850px) {

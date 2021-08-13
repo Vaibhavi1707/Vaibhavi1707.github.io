@@ -9,6 +9,9 @@ function App() {
       <div className="App__bar">
         <Navbar />
       </div>
+      <div className="social__accounts">
+        <SocialAccounts />
+      </div>
       <Intro />
       {/* <About /> */}
       {/* <Achievements /> */}
