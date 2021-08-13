@@ -1,6 +1,8 @@
 import React from 'react'
 import "../css/About.css"
 
+import me from "../images/me.jpg"
+
 function About() {
     return (
         <div className = "about">
@@ -11,7 +13,7 @@ function About() {
                     I am interested in design thinking and development to boost user productivity. I'm currently exploring Machine Learning.            
                 </p>
 
-                <img src = "./public/2020-12-11-182802.jpg" alt = "me"></img>
+                <img src = {me} alt = "me"></img>
             </div>
         </div>
     )
