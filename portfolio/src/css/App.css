@@ -4,6 +4,7 @@
   text-align: center;
   background-color: #0A192F;
   font-family: 'Roboto Mono', monospace;
+  width: 100%;
 }
 
 .App-logo {
@@ -39,4 +40,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App__bar {
+  position: fixed;
 }

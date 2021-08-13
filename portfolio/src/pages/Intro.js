@@ -6,7 +6,6 @@ import Typical from 'react-typical'
 function Intro() {
     return (
         <div className = "intro">
-            <Navbar />
             <div className = "first__intro">
                 <div className = "greeting">
                     Hi, I'm
