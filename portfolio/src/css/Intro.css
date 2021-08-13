@@ -19,7 +19,7 @@
 
 .myName {
     color: #CCD6F6;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'sans-serif';
     font-size: 7vh;
 }
 
