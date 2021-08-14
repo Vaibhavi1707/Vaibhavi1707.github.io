@@ -16,12 +16,12 @@ function Experience() {
             <h2>Experience</h2>
             <div className = "experience__cards">
             {/* <h3>Internships</h3> */}
-                <Card imgSrc = {ehrc} title = "Backend Developer, E-HRC" description="NP Lab Dashboard" />
-                <Card imgSrc = {spAware} title = "UI/UX Intern" description="Spiritual Awareness" />
+                <Card textColor = "#0A192F" cardColor = "#8892B0" imgSrc = {ehrc} title = "Backend Developer, E-HRC" description="NP Lab Dashboard" />
+                <Card textColor = "#0A192F" cardColor = "#8892B0" imgSrc = {spAware} title = "UI/UX Intern" description="Spiritual Awareness" />
             {/* <h3>Volunteering</h3> */}
-                <Card imgSrc = {adv} title = "Student Advocate" description="SUSE Challenge" />
-                <Card imgSrc = {sq1} title = "Core Member" description = "Induction"/>
-                <Card imgSrc = {istem} title = "Volunteer" description = "IStem Hackathon"/>
+                <Card textColor = "#0A192F" cardColor = "#8892B0" imgSrc = {adv} title = "Student Advocate" description="SUSE Challenge" />
+                <Card textColor = "#0A192F" cardColor = "#8892B0" imgSrc = {sq1} title = "Core Member" description = "Induction"/>
+                <Card textColor = "#0A192F" cardColor = "#8892B0" imgSrc = {istem} title = "Volunteer" description = "IStem Hackathon"/>
             </div>
         </div>
     )

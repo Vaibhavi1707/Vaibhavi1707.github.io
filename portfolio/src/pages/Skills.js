@@ -1,21 +1,38 @@
 import React from 'react'
 import "../css/Skills.css"
 
+import cpp from "../images/cpp.svg"
+import py from "../images/py.svg"
+import java from "../images/java.svg"
+import js from "../images/js.svg"
+import reactjs from "../images/reactjs.svg"
+import springboot from "../images/springboot.svg"
+// import pandas from "https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg"
+// import plt from "https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg"
+import tf from "../images/tf.svg"
+import mysql from "../images/mysql.svg"
+import mongo from "../images/mongo.svg"
+
 
 function Skills() {
     return (
         <div className = "skills">
             <h2>Skills</h2>
             <h3>Languages</h3>
-            C/C++, Java, Python, JavaScript
+            <img src = {cpp} alt = "cpp" width = "100vw" height= "100vw" style = {{ marginRight: "20px", color: "#63F4DA" }} />
+            <img src = {py} alt = "py" width = "100vw" height= "100vw" style = {{ marginRight: "20px" , color: "#63F4DA" }} />
+            <img src = {java} alt = "java" width = "100vw" height= "100vw" style = {{ marginRight: "20px" }} />
+            <img src = {js} alt = "js" width = "100vw" height= "100vw" style = {{ marginRight: "20px" }} />
             <h3>Frameworks</h3>
-            React js,
-            SpringBoot,
-            Pandas,
-            Matplotlib,
-            TensorFlow
+            <img src = {reactjs} alt = "reactjs" width = "100vw" height= "100vw" style = {{ marginRight: "20px", color: "#63F4DA" }} />
+            <img src = {springboot} alt = "springboot" width = "100vw" height= "100vw" style = {{ marginRight: "20px" , color: "#63F4DA" }} />
+            <img src = "https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" alt = "pandas" width = "100vw" height= "100vw" style = {{ marginRight: "20px" }} />
+            <img src = "https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt = "plt" width = "100vw" height= "100vw" style = {{ marginRight: "20px" }} />
+            <img src = {tf} alt = "tf" width = "100vw" height= "100vw" style = {{ marginRight: "20px" }} />
+            
             <h3>Databases</h3>
-            MySQL, Mongo DB
+            <img src = {mongo} alt = "mongo" width = "100vw" height= "100vw" style = {{ marginRight: "20px", color: "#63F4DA" }} />
+            <img src = {mysql} alt = "mysql" width = "100vw" height= "100vw" style = {{ marginRight: "20px" , color: "#63F4DA" }} />
         </div>
     )
 }
