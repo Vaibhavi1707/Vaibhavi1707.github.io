@@ -7,7 +7,7 @@ import java from "../images/java.svg"
 import js from "../images/js.svg"
 import reactjs from "../images/reactjs.svg"
 import springboot from "../images/springboot.svg"
-// import pandas from "https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg"
+import pandas from "../images/pandas.png"
 // import plt from "https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg"
 import tf from "../images/tf.svg"
 import mysql from "../images/mysql.svg"
@@ -26,7 +26,7 @@ function Skills() {
             <h3>Frameworks</h3>
             <img src = {reactjs} alt = "reactjs" width = "100vw" height= "100vw" style = {{ marginRight: "20px", color: "#63F4DA" }} />
             <img src = {springboot} alt = "springboot" width = "100vw" height= "100vw" style = {{ marginRight: "20px" , color: "#63F4DA" }} />
-            <img src = "https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" alt = "pandas" width = "100vw" height= "100vw" style = {{ marginRight: "20px" }} />
+            <img src = {pandas} alt = "pandas" width = "200vw" height= "50vw" style = {{ marginRight: "20px" }} />
             <img src = "https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt = "plt" width = "100vw" height= "100vw" style = {{ marginRight: "20px" }} />
             <img src = {tf} alt = "tf" width = "100vw" height= "100vw" style = {{ marginRight: "20px" }} />
             
