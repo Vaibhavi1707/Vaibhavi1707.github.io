@@ -15,9 +15,9 @@ function Navbar() {
                 <div className = "links" id = {showLinks ? "hidden" : ""}>
                 <a href = "/home">Home</a>
                 <a href = "/about">About</a>
-                <a href = "/achievments">Achievements</a>
-                <a href = "/experience">Experience</a>
                 <a href = "/skills">Skills</a>
+                <a href = "/achievements">Achievements</a>
+                <a href = "/experience">Experience</a>
                 <a href = "/projects">Projects</a>
                 <a href = "/contact">Contact</a>
                 </div>

@@ -44,6 +44,7 @@
 
 .App__bar {
   position: fixed;
+  top: 0;
 }
 
 .social__accounts {

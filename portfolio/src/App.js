@@ -10,6 +10,7 @@ import Projects from './pages/Projects';
 
 import Navbar from './components/Navbar';
 import SocialAccounts from './components/SocialAccounts';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 function App() {
   return (
@@ -20,13 +21,31 @@ function App() {
       <div className="social__accounts">
         <SocialAccounts />
       </div>
-      <Intro />
-      <About />
-      <Skills />
-      <Achievements />
-      <Experience />
-      <Projects />
-      <Contact />
+      <Router>
+        {/* <Switch> */}
+          <Route path = "/home">
+            <Intro />
+          </Route>
+          <Route path = "/about">
+            <About />
+          </Route>
+          <Route path = "/skills">
+            <Skills />
+          </Route>
+          <Route path = "/achievements">
+            <Achievements />
+          </Route>
+          <Route path = "/experience">
+            <Experience />
+          </Route> 
+          <Route path = "/projects">
+            <Projects />
+          </Route>
+          <Route path = "/contact">
+            <Contact />
+          </Route>
+        {/* </Switch> */}
+      </Router>
     </div>
   );
 }
