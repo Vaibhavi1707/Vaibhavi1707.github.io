@@ -3,7 +3,7 @@
 .about {
     height: 100vh;
     width: 100vw;
-    padding: 10vh 0vh 0vh 0vh;
+    /* padding: 10vh 0vh 0vh 0vh; */
 }
 
 .about > h2 {
@@ -14,16 +14,17 @@
 
 .matter {
     display: flex;
-
+    flex-direction: row;
+    padding: 10vh 20vh;
 }
 
-.about .matter > p {
+.about .matter .desc > p {
     text-align: left;
     color: #CCD6F6;
-    padding-top: 10vh;
+    padding-right: 10vh;
     font-family: 'Poppins', 'sans-serif';
     font-size: 20px;
     width: 35vw;
-    padding-left: 20vh;
-
+    /* padding: 20vh; */
 }
+
