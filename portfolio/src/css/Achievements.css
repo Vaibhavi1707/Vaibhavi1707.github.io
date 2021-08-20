@@ -12,10 +12,14 @@
 }
 
 .achievements__cards {
-    display: flex;
-    flex-direction: row;
-    /* padding: 15vh; */
-    margin-right: 10vh;
-    /* margin-left: 10vh; */
-    justify-content: center;
+    padding-left: 10px;
 }
+
+/* .achievements__cards {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* padding: 15vh; */
+    /* margin-right: 10vh; */
+    /* margin-left: 10vh; */
+    /* justify-content: center; */
+/* } */
