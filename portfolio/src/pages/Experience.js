@@ -33,7 +33,7 @@ function Experience() {
             <div className = "experience__cards">
             {/* <h3>Internships</h3> */}
             <MyCard textcolor = "#0A192F" cardcolor = "#8892B0" imgsrc = {ehrc} title = "Backend Developer, E-HRC" description="NP Lab Dashboard" />
-            <MyCard textcolor = "#0A192F" cardcolor = "#8892B0" imgsrc = {spAware} title = "UI/UX Intern" description="Spiritual Awareness" />
+            {/* <MyCard textcolor = "#0A192F" cardcolor = "#8892B0" imgsrc = {spAware} title = "UI/UX Intern" description="Spiritual Awareness" /> */}
                
             {/* <h3>Volunteering</h3> */}
             {/* <MyCard textcolor = "#0A192F" cardcolor = "#8892B0" imgsrc = {adv} title = "Student Advocate" description="SUSE Challenge" /> */}

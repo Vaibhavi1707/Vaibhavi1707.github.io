@@ -4,8 +4,8 @@ import "../css/Cards.css"
 
 function MyCard({ textcolor, cardcolor, imgsrc, title, description }) {
     return (
-        <Card>
-            <Card.Img variant="top" src={imgsrc} style = {{ backgroundColor:{cardcolor}, color:{textcolor} }} />
+        <Card style = {{ backgroundColor:cardcolor, color:textcolor }}>
+            <Card.Img variant="top" src={imgsrc} style = {{ height: "20vh" }} />
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>

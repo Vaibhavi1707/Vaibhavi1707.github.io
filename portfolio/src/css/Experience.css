@@ -1,6 +1,6 @@
 .experience {
-    height: 94vh;
-    width: 96vw;
+    height: fit-content;
+    width: fit-content;
 }
 
 .experience > h2 {
@@ -22,7 +22,7 @@
     flex-flow: wrap;
     /* justify-content: space-between; */
     align-items: center;
-    margin-right: 10vh;
+    /* margin-right: 10vh; */
     /* margin-left: 10vh; */
     justify-content: center;
 }

@@ -1,6 +1,6 @@
 .projects {
-    height: 94vh;
-    width: 96vw;
+    height: fit-content;
+    width: fit-content;
 }
 
 .projects > h2 {
@@ -18,8 +18,9 @@
 .projects__cards {
     display: flex;
     flex-direction: row;
+    flex-flow: wrap;
     /* padding: 15vh; */
-    margin-right: 10vh;
+    /* margin-top: 10vh; */
     /* margin-left: 10vh; */
     justify-content: center;
 }

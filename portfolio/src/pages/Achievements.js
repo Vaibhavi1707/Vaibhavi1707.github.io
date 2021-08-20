@@ -11,8 +11,8 @@ function Achievements() {
         <div className = "achievements">
             <h2>Achievements</h2>
             <div className = "achievements__cards">
-                <MyCard  imgsrc = {suse} title = "Udacity SUSE Cloud Native Architecture Nanodegree Scholar" description = "Udacity suse scholar" />
-                <MyCard  imgsrc = {we} title = "Women Engineers Scholar at Google" description = "2-year experiential program" />
+                <MyCard cardcolor = "#0A192F" textcolor = "#8892B0" imgsrc = {suse} title = "Udacity SUSE Cloud Native Architecture Nanodegree Scholar" description = "Udacity suse scholar" />
+                <MyCard cardcolor = "#0A192F" textcolor = "#8892B0" imgsrc = {we} title = "Women Engineers Scholar at Google" description = "2-year experiential program" />
             </div>
         </div>
     )

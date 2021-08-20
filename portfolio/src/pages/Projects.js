@@ -14,7 +14,7 @@ function Projects() {
             <div className = "projects__cards">
                 <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {rubaroo} title = "Rubaroo" description = "HackOn"/>
                 <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {rgb2grey} title = "PPM Color to Greyscale" description = "C++ Course project"/>
-                <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {routing} title = "Transport Routing System" description = "Java course project"/>
+                {/* <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {routing} title = "Transport Routing System" description = "Java course project"/> */}
                 <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {cubesum} title = "Three Cube Sum" description = "paper replication"/>
             </div>            
         </div>
