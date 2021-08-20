@@ -12,10 +12,10 @@ function Projects() {
         <div className = "projects">
             <h2>Projects</h2>
             <div className = "projects__cards">
-                <MyCard textColor = "#0A192F" cardColor = "#45B09F" imgSrc = {rubaroo} title = "Rubaroo" description = "HackOn"/>
-                <MyCard textColor = "#0A192F" cardColor = "#45B09F" imgSrc = {rgb2grey} title = "PPM Color to Greyscale" description = "C++ Course project"/>
-                <MyCard textColor = "#0A192F" cardColor = "#45B09F" imgSrc = {routing} title = "Transport Routing System" description = "Java course project"/>
-                <MyCard textColor = "#0A192F" cardColor = "#45B09F" imgSrc = {cubesum} title = "Three Cube Sum" description = "paper replication"/>
+                <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {rubaroo} title = "Rubaroo" description = "HackOn"/>
+                <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {rgb2grey} title = "PPM Color to Greyscale" description = "C++ Course project"/>
+                <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {routing} title = "Transport Routing System" description = "Java course project"/>
+                <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {cubesum} title = "Three Cube Sum" description = "paper replication"/>
             </div>            
         </div>
     )

@@ -5,12 +5,11 @@ import "../css/Cards.css"
 function MyCard({ textcolor, cardcolor, imgsrc, title, description }) {
     return (
         <Card>
-            <Card.Img variant="top" src={imgsrc} />
+            <Card.Img variant="top" src={imgsrc} style = {{ backgroundColor:{cardcolor}, color:{textcolor} }} />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>{title}</Card.Title>
                 <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                {description}
                 </Card.Text>
             </Card.Body>
         </Card>
