@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-// import "../css/Cards.css"
+import "../css/Cards.css"
 
 function MyCard({ textcolor, cardcolor, imgsrc, title, description }) {
     return (
-        <Card style={{ backgroundColor: "white", width: '18rem', boxShadow: "0 2px 20px rgb(0, 0, 0, 0.75)" }}>
+        <Card>
             <Card.Img variant="top" src={imgsrc} />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
