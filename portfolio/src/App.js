@@ -25,7 +25,7 @@ function App() {
       <div className="myemail">
        <Email />
       </div>
-      <Router>
+      <Router basename = {process.env.PUBLIC_URL}>
         {/* <Switch> */}
           <Route path = "/home">
             <Intro />

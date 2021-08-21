@@ -6,7 +6,7 @@ function Email() {
     const myEmail = "vaibhavilokegaonkar@gmail.com";
     return (
         <div className = "email" >
-        <Router>
+        <Router basename = {process.env.PUBLIC_URL}>
             <Link
             to='#'
             onClick={(e) => {
