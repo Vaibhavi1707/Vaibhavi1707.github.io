@@ -10,7 +10,7 @@ import Projects from './pages/Projects';
 
 import Navbar from './components/Navbar';
 import SocialAccounts from './components/SocialAccounts';
-import { Route, HashRouter as Router, Switch } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Email from './components/Email';
 
 function App() {
