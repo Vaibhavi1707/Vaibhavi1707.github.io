@@ -11,6 +11,7 @@ import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 import SocialAccounts from './components/SocialAccounts';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import Email from './components/Email';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
       </div>
       <div className="social__accounts">
         <SocialAccounts />
+      </div>
+      <div className="myemail">
+       <Email />
       </div>
       <Router>
         {/* <Switch> */}

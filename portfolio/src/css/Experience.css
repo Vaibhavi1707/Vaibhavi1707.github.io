@@ -1,6 +1,6 @@
 .experience {
-    height: fit-content;
-    width: fit-content;
+    min-height: 94vh;
+    min-width: 100vw;
 }
 
 .experience > h2 {

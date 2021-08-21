@@ -7,15 +7,17 @@ function Intro() {
     return (
         <div className = "intro">
             <div className = "first__intro">
-                <div className = "greeting">
-                    Hi, I'm
-                </div>
-                <div className = "myName">
-                    Vaibhavi Lokegaonkar.
-                </div>
-                <div className = "whoami">
-                    I am a <Typical loop = {Infinity} wrapper = "b" steps = {['CSE Undergrad', 1000, 'Web Developer', 1000, 'ML Enthusiast', 1000]}/>
-                </div>
+                <div className = "first__intro__content">
+                    <div className = "greeting">
+                        Hi, I'm
+                    </div>
+                    <div className = "myName">
+                        Vaibhavi Lokegaonkar.
+                    </div>
+                    <div className = "whoami">
+                        I am a <Typical loop = {Infinity} wrapper = "b" steps = {['CSE Undergrad', 1000, 'Web Developer', 1000, 'ML Enthusiast', 1000]}/>
+                    </div>
+                </div>    
             </div>
         </div>
     )

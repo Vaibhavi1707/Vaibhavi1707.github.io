@@ -1,6 +1,6 @@
 .achievements {
-    height: fit-content;
-    width: fit-content;
+    min-height: 94vh;
+    min-width: 100vw;
     /* justify-content: center; */
     /* padding: 40px; */
 }
