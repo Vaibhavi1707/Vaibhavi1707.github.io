@@ -1,6 +1,6 @@
 import React from 'react'
 import "../css/Intro.css"
-import Navbar from '../components/Navbar'
+// import Navbar from '../components/Navbar'
 import Typical from 'react-typical'
 
 function Intro() {

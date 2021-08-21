@@ -4,7 +4,7 @@ import "../css/Projects.css"
 
 import rubaroo from "../images/rubaroo.png"
 import rgb2grey from "../images/rgb2grey.jpeg"
-import routing from "../images/routing.jpeg"
+// import routing from "../images/routing.jpeg"
 import cubesum from "../images/3cubesum.jpeg"
 
 function Projects() {

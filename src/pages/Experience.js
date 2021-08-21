@@ -3,7 +3,7 @@ import "../css/Experience.css"
 
 import ehrc from "../images/ehrc.png";
 import spAware from "../images/spAware.jpeg";
-import adv from "../images/adv.jpeg";
+// import adv from "../images/adv.jpeg";
 import sq1 from "../images/sq1.jpeg";
 import istem from "../images/istem.jpeg";
 
