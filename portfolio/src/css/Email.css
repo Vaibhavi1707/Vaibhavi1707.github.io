@@ -11,3 +11,16 @@
     transform: rotate(90deg);
     transform-origin: right bottom;
 }
+
+.email > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #45B09F;
+}
+
+a::after {
+    color: #fff;
+}

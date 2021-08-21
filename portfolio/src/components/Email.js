@@ -1,10 +1,21 @@
 import React from 'react'
 import "../css/Email.css"
+import { Link, BrowserRouter as Router } from 'react-router-dom'
 
 function Email() {
+    const myEmail = "vaibhavilokegaonkar@gmail.com";
     return (
         <div className = "email" >
-            vaibhavilokegaonkar@gmail.com
+        <Router>
+            <Link
+            to='#'
+            onClick={(e) => {
+                window.location = `mailto:${myEmail}`;
+                e.preventDefault();
+            }}
+            >{myEmail}</Link>
+            {/* <a href = {`mailto(${myEmail})`}></a> */}
+            </Router>
         </div>
     )
 }
