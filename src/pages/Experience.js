@@ -16,14 +16,14 @@ function Experience() {
     const ehrcDetails = [{
         title: "Backend Developer, E-HRC",
         description: "NP Lab Dashboard",
-        image: ehrc,
+        // image: ehrc,
         // handleOnClick: () => 
     }]
 
     const spAwareDetails = [{
         title: "UI/UX Intern",
         description: "Spiritual Awareness",
-        image: spAware,
+        // image: spAware,
         // handleOnClick: () => 
     }]
 
