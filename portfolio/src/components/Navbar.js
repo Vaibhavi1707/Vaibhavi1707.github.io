@@ -13,7 +13,7 @@ function Navbar() {
             </div>
             <div className = "right">
                 <div className = "links" id = {showLinks ? "hidden" : ""}>
-                <a href = "/home">Home</a>
+                <a href = "/">Home</a>
                 <a href = "/about">About</a>
                 <a href = "/skills">Skills</a>
                 <a href = "/achievements">Achievements</a>

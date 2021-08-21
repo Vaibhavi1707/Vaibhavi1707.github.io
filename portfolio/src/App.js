@@ -27,7 +27,7 @@ function App() {
       </div>
       <Router basename = {process.env.PUBLIC_URL}>
         {/* <Switch> */}
-          <Route path = "/home">
+          <Route exact path = "/">
             <Intro />
           </Route>
           <Route path = "/about">
