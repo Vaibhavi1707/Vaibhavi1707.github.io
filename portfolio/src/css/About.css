@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 .about {
-    min-height: 94vh;
-    min-width: 96vw;
+    min-height: 90vh;
+    min-width: 92vw;
     padding: 10vh 0vh 0vh 0vh;
     justify-content: center;
 }

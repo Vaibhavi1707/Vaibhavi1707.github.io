@@ -1,5 +1,6 @@
 .skills > h2 {
     font-size: 6vh;
+    padding-top: 40px;
 }
 
 .skills > h3 {
@@ -8,9 +9,9 @@
 
 .skills {
     justify-self: center;
-    padding-top: 10px;
+    /* padding-top: 30px; */
     color: #8892B0;
     font-size: 2vh;
-    height: 99vh;
-    width: 95vw;
+    min-height: 95vh;
+    min-width: 95vw;
 }

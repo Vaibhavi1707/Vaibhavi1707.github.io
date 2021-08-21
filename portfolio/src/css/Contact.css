@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 .contact {
-    height: 94vh;
-    width: 96vw;
+    min-height: 94vh;
+    min-width: 96vw;
 }
 
 .contact > h2 {
     justify-self: center;
     color: #8892B0;
     font-size: 7vh;
+    padding-top: 20px;
 }
 
 .contact > p {
