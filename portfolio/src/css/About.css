@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 .about {
-    height: 94vh;
-    width: 96vw;
-    /* padding: 10vh 0vh 0vh 0vh; */
+    min-height: 94vh;
+    min-width: 96vw;
+    padding: 10vh 0vh 0vh 0vh;
+    justify-content: center;
 }
 
 .about > h2 {
     color: #8892B0;
-    /*  */
     font-size: 7vh;
 }
 
 .matter {
     display: flex;
     flex-direction: row;
-    padding: 10vh 20vh;
+    padding: 2vh 15vh;
+    justify-content: center;
 }
 
 .about .matter .desc > p {
@@ -24,7 +25,15 @@
     padding-right: 10vh;
     font-family: 'Poppins', 'sans-serif';
     font-size: 20px;
-    width: 35vw;
+    width: 40vw;
     /* padding: 20vh; */
+}
+
+@media only screen and (max-width: 650px) {
+    .matter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 

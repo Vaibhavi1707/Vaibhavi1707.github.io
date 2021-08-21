@@ -1,7 +1,7 @@
 .socialAccounts {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .socialAccounts > .MuiSvgIcon-root {
@@ -12,5 +12,5 @@
 
 .socialAccounts > .vertical {
     border-left: 10px white;
-    height: 120px;
+    height: 40px;
 }

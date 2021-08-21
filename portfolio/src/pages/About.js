@@ -15,7 +15,7 @@ function About() {
                 </p>
                 </div>
                 <div>
-                    <img src = {me} alt = "me" style = {{ width: "30vw", height: "30vw", borderRadius: "15vw" }}></img>
+                    <img src = {me} alt = "me" style = {{ width: "30vh", height: "30vh", borderRadius: "15vw" }}></img>
                 </div>
             </div>
         </div>

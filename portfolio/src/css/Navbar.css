@@ -81,9 +81,6 @@
     .right > .MuiSvgIcon-root {
         display: flex;
     }
-    /* .left {
-        display: none;
-    } */
     .right #hidden {
         position: absolute;
         right: 0px;
