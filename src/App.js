@@ -25,31 +25,31 @@ function App() {
       <div className="myemail">
        <Email />
       </div>
-      {/* <Router basename = {process.env.PUBLIC_URL}> */}
+      <Router basename = {process.env.PUBLIC_URL}>
         {/* <Switch> */}
           {/* <Route path = "/"> */}
             <Intro />
           {/* </Route> */}
-          {/* <Route path = "about"> */}
+          {/* <Route path = "/about"> */}
             <About />
           {/* </Route> */}
-          {/* <Route path = "skills"> */}
+          {/* <Route path = "/skills"> */}
             <Skills />
           {/* </Route> */}
-          {/* <Route path = "achievements"> */}
+          {/* <Route path = "/achievements"> */}
             <Achievements />
           {/* </Route> */}
-          {/* <Route path = "experience"> */}
+          {/* <Route path = "/experience"> */}
             <Experience />
           {/* </Route>  */}
-          {/* <Route path = "projects"> */}
+          {/* <Route path = "/projects"> */}
             <Projects />
           {/* </Route> */}
-          {/* <Route path = "contact"> */}
+          {/* <Route path = "/contact"> */}
             <Contact />
           {/* </Route> */}
         {/* </Switch> */}
-      {/* </Router> */}
+      </Router>
     </div>
   );
 }
