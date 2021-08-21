@@ -10,7 +10,7 @@ import Projects from './pages/Projects';
 
 import Navbar from './components/Navbar';
 import SocialAccounts from './components/SocialAccounts';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, HashRouter as Router, Switch } from 'react-router-dom';
 import Email from './components/Email';
 
 function App() {
@@ -25,31 +25,31 @@ function App() {
       <div className="myemail">
        <Email />
       </div>
-      <Router basename = {process.env.PUBLIC_URL}>
+      {/* <Router basename = {process.env.PUBLIC_URL}> */}
         {/* <Switch> */}
-          <Route exact path = "/">
+          {/* <Route path = "/"> */}
             <Intro />
-          </Route>
-          <Route path = "/about">
+          {/* </Route> */}
+          {/* <Route path = "about"> */}
             <About />
-          </Route>
-          <Route path = "/skills">
+          {/* </Route> */}
+          {/* <Route path = "skills"> */}
             <Skills />
-          </Route>
-          <Route path = "/achievements">
+          {/* </Route> */}
+          {/* <Route path = "achievements"> */}
             <Achievements />
-          </Route>
-          <Route path = "/experience">
+          {/* </Route> */}
+          {/* <Route path = "experience"> */}
             <Experience />
-          </Route> 
-          <Route path = "/projects">
+          {/* </Route>  */}
+          {/* <Route path = "projects"> */}
             <Projects />
-          </Route>
-          <Route path = "/contact">
+          {/* </Route> */}
+          {/* <Route path = "contact"> */}
             <Contact />
-          </Route>
+          {/* </Route> */}
         {/* </Switch> */}
-      </Router>
+      {/* </Router> */}
     </div>
   );
 }
