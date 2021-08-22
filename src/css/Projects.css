@@ -25,3 +25,7 @@
     /* margin-left: 10vh; */
     justify-content: center;
 }
+
+.projects__cards > a {
+    text-decoration: none;
+}

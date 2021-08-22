@@ -2,7 +2,7 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import "../css/Cards.css"
 
-function MyCard({ textcolor, cardcolor, imgsrc, title, description }) {
+function MyCard({ textcolor, cardcolor, imgsrc, title}) {
     return (
         <Card style = {{ backgroundColor:cardcolor, color:textcolor }}>
             <Card.Img src={imgsrc} style = {{ height: "20vh" }} />

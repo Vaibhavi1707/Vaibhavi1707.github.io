@@ -32,13 +32,13 @@ function Experience() {
             <h2>Experience</h2>
             <div className = "experience__cards">
             {/* <h3>Internships</h3> */}
-            <MyCard textcolor = "#0A192F" cardcolor = "#8892B0" imgsrc = {ehrc} title = "Backend Developer, E-HRC" description="NP Lab Dashboard" />
-            <MyCard textcolor = "#0A192F" cardcolor = "#8892B0" imgsrc = {spAware} title = "UI/UX Intern" description="Spiritual Awareness" />
+            <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {ehrc} title = "Backend Developer, E-HRC"  />
+            <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {spAware} title = "UI/UX Intern"  />
                
             {/* <h3>Volunteering</h3> */}
-            {/* <MyCard textcolor = "#0A192F" cardcolor = "#8892B0" imgsrc = {adv} title = "Student Advocate" description="SUSE Challenge" /> */}
-            <MyCard textcolor = "#0A192F" cardcolor = "#8892B0" imgsrc = {sq1} title = "Core Member" description = "Induction"/>
-            <MyCard textcolor = "#0A192F" cardcolor = "#8892B0" imgsrc = {istem} title = "Volunteer" description = "IStem Hackathon"/>
+            {/* <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {adv} title = "Student Advocate" description="SUSE Challenge" /> */}
+            <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {sq1} title = "Core Member" />
+            <MyCard textcolor = "#0A192F" cardcolor = "#45B09F" imgsrc = {istem} title = "Volunteer" />
             
             </div>
             
