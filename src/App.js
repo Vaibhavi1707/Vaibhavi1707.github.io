@@ -1,3 +1,5 @@
+import { Route, BrowserRouter as Router } from 'react-router-dom';
+
 import './css/App.css';
 
 import Intro from './pages/Intro';
@@ -10,8 +12,8 @@ import Projects from './pages/Projects';
 
 import Navbar from './components/Navbar';
 import SocialAccounts from './components/SocialAccounts';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
 import Email from './components/Email';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -50,6 +52,7 @@ function App() {
           </Route>
         {/* </Switch> */}
       </Router>
+      <Footer />
     </div>
   );
 }
