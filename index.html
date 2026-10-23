@@ -20,6 +20,12 @@
     --accent-soft: #e7eefb;
     --border: #dde4ee;
     --tag-bg: #eef2f8;
+    --listen: #7c3aed;
+    --listen-soft: #f3edff;
+    --listen-border: #e2d5fb;
+    --soon: #b45309;
+    --soon-soft: #fff7ed;
+    --soon-border: #f5c58f;
     --max-width: 780px;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -145,6 +151,47 @@
   }
   .news-text { color: var(--text-soft); }
   .news-text b { color: var(--text); font-weight: 600; }
+  .news-text a b { color: inherit; }
+  .listen {
+    display: flex; width: fit-content; align-items: center; gap: 0.4rem;
+    margin-top: 0.45rem; padding: 0.18rem 0.75rem 0.18rem 0.6rem;
+    border: 1px solid var(--listen-border); border-radius: 999px;
+    background: var(--listen-soft); color: var(--listen);
+    font-size: 0.82rem; font-weight: 600; white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(124, 58, 237, 0.08);
+    transition: background 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  }
+  .listen::before { content: "\266A"; font-size: 0.95em; }
+  .listen.explore::before { content: none; }
+  .listen .arrow { display: inline-block; transition: transform 0.2s; }
+  .listen:hover {
+    text-decoration: none; background: var(--listen); color: #fff;
+    border-color: var(--listen);
+    box-shadow: 0 3px 10px rgba(124, 58, 237, 0.25);
+  }
+  .listen:hover .arrow { transform: translateX(3px); }
+  .soon {
+    display: flex; width: fit-content; align-items: center; gap: 0.5rem;
+    margin-top: 0.45rem; padding: 0.18rem 0.75rem 0.18rem 0.65rem;
+    border: 1px dashed var(--soon-border); border-radius: 999px;
+    background: var(--soon-soft); color: var(--soon);
+    font-size: 0.82rem; font-weight: 600; font-style: italic; white-space: nowrap;
+  }
+  .soon .pulse {
+    position: relative; width: 7px; height: 7px; border-radius: 50%;
+    background: var(--soon);
+  }
+  .soon .pulse::after {
+    content: ""; position: absolute; inset: 0; border-radius: 50%;
+    background: var(--soon); animation: soon-pulse 1.8s ease-out infinite;
+  }
+  @keyframes soon-pulse {
+    from { transform: scale(1); opacity: 0.6; }
+    to { transform: scale(2.6); opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .soon .pulse::after { animation: none; }
+  }
 
   /* ---------- Publications ---------- */
   .pub {
@@ -314,8 +361,11 @@
       <div class="pub-title"><a href="https://arxiv.org/abs/2604.17656">Video-Robin: Autoregressive Diffusion Planning for Intent-Grounded Video-to-Music Generation</a></div>
       <div class="pub-authors"><span class="me">Vaibhavi Lokegaonkar</span>*, Aryan Vijay Bhosale*, Vishnu Raj, Gouthaman KV, Ramani Duraiswami, Lie Lu, Sreyan Ghosh, Dinesh Manocha <span class="eq-note">(*equal contribution)</span></div>
       <div class="pub-meta">
-        <span class="pub-venue">arXiv · 2026</span>
-        <div class="pub-links"><a href="https://arxiv.org/abs/2604.17656">arXiv</a></div>
+        <span class="pub-venue">NeurIPS 2026 Creative AI Track</span>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2604.17656">arXiv</a>
+          <a href="https://video-robin.github.io/video-robin/">Project</a>
+        </div>
       </div>
       </div>
     </div>
@@ -408,16 +458,24 @@
    ===================================================================== */
 const NEWS = [
   {
+    date: "Oct 2026",
+    html: "<a href='https://arxiv.org/abs/2604.17656'><b>Video-Robin: Autoregressive Diffusion Planning for Intent-Grounded Video-to-Music Generation</b></a> accepted to the <a href='https://neurips.cc/Conferences/2026/CallForCreativeAI'><b>NeurIPS 2026 Creative AI Track</b></a>. <a class='listen' href='https://video-robin.github.io/video-robin/'>Listen to the music it composes <span class='arrow'>&rarr;</span></a>"
+  },
+  {
     date: "Aug 2026",
-    html: "Our new paper <a href='https://arxiv.org/abs/2608.30125'><b>VIBE: Video Instruction-aligned Background music gEneration</b></a> has been accepted to <b>EMNLP Findings 2026</b>. The <a href='https://arxiv.org/abs/2608.30125'>paper</a> and <a href='https://github.com/aryanvibhosale/vibe'>code</a> are now available."
+    html: "<a href='https://arxiv.org/abs/2608.30125'><b>VIBE: Video Instruction-aligned Background music gEneration</b></a> accepted to <a href='https://2026.emnlp.org/'><b>EMNLP Findings 2026</b></a>. <a class='listen' href='https://vibe-text-video-to-music-generation.github.io/vibe/'>Listen to the music it composes <span class='arrow'>&rarr;</span></a>"
+  },
+  {
+    date: "Jun 2026",
+    html: "Started my internship at <a href='https://www.capitalone.com/'><b>Capital One</b></a>. <span class='soon'><span class='pulse'></span>Write-up loading… still warming the cache</span>"
   },
   {
     date: "Nov 2025",
-    html: "Our paper <a href='https://arxiv.org/abs/2508.13992'><b>MMAU-Pro</b></a> has been accepted to <b>AAAI 2026</b>."
+    html: "<a href='https://arxiv.org/abs/2508.13992'><b>MMAU-Pro</b></a> accepted to <a href='https://aaai.org/conference/aaai/aaai-26/'><b>AAAI 2026</b></a>. <a class='listen explore' href='https://sonalkum.github.io/mmau-pro'>Check out the website <span class='arrow'>&rarr;</span></a>"
   },
   {
     date: "Dec 2023",
-    html: "Presented <a href='https://arxiv.org/abs/2311.15072'><b>SSBD+</b></a>, a dataset and convolutional pipeline for detecting self-stimulatory behaviours in children, at <b>IEEE Healthcom 2023</b>."
+    html: "<a href='https://arxiv.org/abs/2311.15072'><b>SSBD+</b></a>, a dataset and convolutional pipeline for detecting self-stimulatory behaviours in children, presented at <a href='https://healthcom2023.ieee-healthcom.org/'><b>IEEE Healthcom 2023</b></a>. <a class='listen explore' href='https://vijay-jaisankar.github.io/ssbdplus/'>Check out the website <span class='arrow'>&rarr;</span></a>"
   }
 ];
 
